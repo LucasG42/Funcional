@@ -1,5 +1,5 @@
 # Paradigmas de Programação
-Um paradigma de programação pode ser entendido como o modo que um problema é resolvido, ao considerar linguagens de programação como ferramentas temos os paradigmas de programação diretamente ligados a _como_ usar a ferramenta, _onde_, e _qual_ problema devemos usar tal ferramenta para uma solução prática e eficiente. Embora em tese podemos fazer o mesmo sistema com uma linguagem estruturada, imperativa e orientada aa objetos devemos como pensar em qual abordagem, com suas vantagens e desvantagens é adequado a construção do sistema.
+Um paradigma de programação pode ser entendido como o modo que um problema é resolvido, ao considerar linguagens de programação como ferramentas temos os paradigmas de programação diretamente ligados a _como_ usar a ferramenta, _onde_, e em _qual_ problema devemos usar tal ferramenta para uma solução prática e eficiente. Embora em tese podemos fazer o mesmo sistema com uma linguagem estruturada, imperativa e orientada aa objetos devemos  pensar em como cada abordagem, com suas vantagens e desvantagens é adequada a construção do sistema.
 
 ## Exemplos
 Abaixo segue os principais paradigmas de programação e algumas linguagens que os implementam, deixando claro que muitas linguagens de programação permitem o uso de mais de um paradigma. 
