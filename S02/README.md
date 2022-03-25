@@ -13,7 +13,7 @@ Abaixo segue os principais paradigmas de programação e algumas linguagens que 
 | Lógico | Prolog
 
 ## Imperativo
- Neste paradigma é preciso que o programador descreva todo o passo a passo do que o programa deve executar, sua característica marcante é o uso do goto, que permite o salto incondicional para um trecho de código. Um exemplo de linguagem declarativa é o Assembly, tanto para x86 quanto para ARM e demais arquiteturas. Embora temido por muitos programadores de linguagens de alto nível o assembly tem seu uso em sistemas que praticamente não exigem manutenção e são próximos ao aço. Podemos citar o uso em sistemas embarcados sem sistema operacional e funções realizadas pela BIOS. A imagem abaixo é um exemplo de configuração de boot para um processador ARM v8 para mais o repositório original encontra-se [aqui](https://github.com/cirosantilli/armv8-bare-metal/).
+ Neste paradigma é preciso que o programador descreva todo o passo a passo do que o programa deve executar, sua característica marcante é o uso do goto, que permite o salto incondicional para um trecho de código. Um exemplo de linguagem declarativa é o Assembly, tanto para x86 quanto para ARM e demais arquiteturas. Embora temido por muitos programadores de linguagens de alto nível o assembly tem seu uso em sistemas que praticamente não exigem manutenção e são próximos ao aço. Podemos citar o uso em sistemas embarcados sem sistema operacional e funções realizadas pela BIOS. A imagem abaixo é um exemplo de configuração de boot para um processador ARM v8. Para mais informações o repositório original encontra-se [aqui](https://github.com/cirosantilli/armv8-bare-metal/).
  
 ![Código de inicialização em assembly](./img/assembly.png)
 
