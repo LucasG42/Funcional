@@ -23,7 +23,7 @@ Diferente do Imperativo o paradigma estruturado, separa o programa em blocos. O 
 - Condição: As ações podem ter seu caminho desviado a depender se uma condiçãoo é ou não atendida.
 - Repetição: O mesmo bloco de código pode executar até que uma condição seja atendida.
 
-
+![Exemplo de fluxo](./img/estruturada.png)
 
 Uma boa prática é reduzir o máximo o uso do GOTO, embora seja útil em alguns casos, em programas maiores  pode resultar em um código com baixa legibilidade e dificultar o reuso de software.
 
