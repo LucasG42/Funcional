@@ -9,7 +9,7 @@ Abaixo segue os principais paradigmas de programação e algumas linguagens que 
 | Estruturado| Ada, C |
 | Orientado à Objetos | C++, Dart, Java |
 | Funcional | Haskell, Scala
-| Declarativo | HTML, XML,  XAML
+| Declarativo | HTML, XAML, SQL
 | Lógico | Prolog
 
 ## Imperativo
@@ -46,5 +46,22 @@ Uma empresa interessante com projetos que usam e abusam do reuso de código é a
 ## Funcional
 
 ## Declarativo
+Na programação declarativa o foco é sobre o conteúdo e não em _como_ ele é representado. Grandes exemplos do paradigma declarativo são linguagens de marcação e o SQL. Abaixo seguem exemplos de uma busca SQL e uma página simples HTML.
+
+ ``SELECT * FROM user WHERE idade > 17 ``
+```html
+ <!DOCTYPE html>	
+<html>	
+    <head>	
+        <title>Atividade da semana 2</title>	
+    </head>	
+<body>	
+    <h1>Programação funcional é 10</h1>	
+    <p>Nada além disso precisa ser dito/p>	
+    </body>	
+</html>
+```
+
+No SQL selecionamos todos os usuários com 18 anos ou mais, note que não é necessário saber como a lógica da busca é implementada, como ocorrerá o processo, somente no que de fato declaramos e obteremos como retorno. De forma similar na nossa página HTML em nenhum momento pensamos no *como*, escrevemos o que deve ser tratado e passamos o tratamento para terceiro, no HTML o Browser e no SQL o Sistema Gerenciador de Banco de Dados em questão (MySQL, MariaDB, etc.).
 
 ## Lógico
