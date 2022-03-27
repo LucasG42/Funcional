@@ -81,9 +81,9 @@ Por fim falaremos sobre o paradigma funcional, um programa escrito com uma lingu
 
 - Funções Puras: Funções puras são aquelas que ao receber a mesma entrada geram a mesma saída, sem alterar nada fora do seu escopo, dizemos que funções puras não geram **Efeitos Colaterais**. Em um programa em C é muito comum quando desejamos alterar mais de uma variável o uso de ponteiros passados como parâmetros, de fato funciona e é a maneira mais prática de fazer isto, porém suponha que entre milhares de linhas de código uma variável comum é alterada e não sabemos onde a mudança ocorreu, temos um problema. 
 
-``
+
 ![puref.png](./img/puref.jpg)
-``
+
 - Lazy Evaluation
 
 - Recursão
