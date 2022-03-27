@@ -68,5 +68,13 @@ No SQL selecionamos todos os usuários com 18 anos ou mais, note que não é nec
 
 ## Lógico
 Já o Paradigma Lógico é baseado em **fatos** e **regras de inferência**, com seu principal representante a linguagem Prolog. Usado en projetos de inteligência artificial, uma  vantagem é que a facilidade de provar que o problema está correto porém para cálculos matemáticos tende a ser mais lento.
+Abaixo segue um exemplo de um programa simples em prolog:
+```
+dog(fido).
+cat(felix).
+animal(X):-dog(X).
+
+```
+No programa acima declaramos fatos, em tradução livre temos que: "Fido é um cachorro" e que "Felix é um gato". Na terceira linhas temos que "X é um animal se X é um cachorro", com isso conseguimos garantir que Fido é um animal, porém com nosso programa atual não podemos afirmar o mesmo de Félix.
 
 ## Funcional
