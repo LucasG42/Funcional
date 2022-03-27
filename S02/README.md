@@ -75,6 +75,6 @@ cat(felix).
 animal(X):-dog(X).
 
 ```
-No programa acima declaramos fatos, em tradução livre temos que: "Fido é um cachorro" e que "Felix é um gato". Na terceira linhas temos que "X é um animal se X é um cachorro", com isso conseguimos garantir que Fido é um animal, porém com nosso programa atual não podemos afirmar o mesmo de Félix. [Um exemplo de projeto usando prolog é um jogo de Damas, desenvolvido por alunos do curso de Ciências da Computação da Ruy Barbosa.](http://www.linhadecodigo.com.br/artigo/860/desenvolvimento-e-implementacao-de-um-jogo-de-damas-em-prolog.aspx)
+No programa acima declaramos fatos, em tradução livre temos que: "Fido é um cachorro" e que "Felix é um gato". Na terceira linhas temos que "X é um animal se X é um cachorro", com isso conseguimos garantir que Fido é um animal, porém com nosso programa atual não podemos afirmar o mesmo de Félix. Um exemplo de projeto usando prolog é um [jogo de Damas](http://www.linhadecodigo.com.br/artigo/860/desenvolvimento-e-implementacao-de-um-jogo-de-damas-em-prolog.aspx), desenvolvido por alunos do curso de Ciências da Computação da Faculdade Ruy Barbosa.
 
 ## Funcional
