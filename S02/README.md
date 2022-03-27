@@ -73,8 +73,39 @@ Abaixo segue um exemplo de um programa simples em prolog:
 dog(fido).
 cat(felix).
 animal(X):-dog(X).
-
 ```
 No programa acima declaramos fatos, em tradução livre temos que: "Fido é um cachorro" e que "Felix é um gato". Na terceira linhas temos que "X é um animal se X é um cachorro", com isso conseguimos garantir que Fido é um animal, porém com nosso programa atual não podemos afirmar o mesmo de Félix. Um exemplo de projeto usando prolog é um [jogo de Damas](http://www.linhadecodigo.com.br/artigo/860/desenvolvimento-e-implementacao-de-um-jogo-de-damas-em-prolog.aspx), desenvolvido por alunos do curso de Ciências da Computação da Faculdade Ruy Barbosa.
-
 ## Funcional
+
+Por fim falaremos sobre o paradigma funcional, um programa escrito com uma linguagem funcional é composto por funções, e também é declarativo, dentre as características usadas para classificar linguagens que usam o paradigma funcional as com maior destaque são as seguintes:
+
+- Funções Puras: Funções puras são aquelas que ao receber a mesma entrada geram a mesma saída, sem alterar nada fora do seu escopo, dizemos que funções puras não geram **Efeitos Colaterais**. Em um programa em C é muito comum quando desejamos alterar mais de uma variável o uso de ponteiros passados como parâmetros, de fato funciona e é a maneira mais prática de fazer isto, porém suponha que entre milhares de linhas de código uma variável comum é alterada e não sabemos onde a mudança ocorreu, temos um problema. 
+
+``
+![puref.png](./img/puref.jpg)
+``
+- Lazy Evaluation
+
+- Recursão
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
