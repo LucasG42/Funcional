@@ -43,16 +43,10 @@ Embora o exemplo supracitado do nosso *Cachorro* abstrado possa parecer extremam
 ![OO](./img/oo.png)
 
 Uma empresa interessante com projetos que usam e abusam do reuso de código é a [JetBrains](https://www.jetbrains.com/pt-br/). Com produtos focados para os desenvolvedores, sendo seu foco a produção de IDE para uma vasta gama de linguagens de programação, vemos em suas IDEs vários pontos em comum com a mudança a depender da especificidade do projeto. PyCharm que é focado no Python tem características únicas para desenvolvedores python, assim como Goland para programadores do Go, é necessário fazer todo o código do zero? obviamente não, e a OO surgiu exatamente com isso em mente. 
-<<<<<<< HEAD
+
 
 ## Declarativo
 Na programação declarativa o foco é sobre o conteúdo e não em _como_ ele é representado. Grandes exemplos do paradigma declarativo são linguagens de marcação e o SQL. Abaixo seguem exemplos de uma busca SQL e uma página HTML simples.
-=======
-## Funcional
-
-## Declarativo
-Na programação declarativa o foco é sobre o conteúdo e não em _como_ ele é representado. Grandes exemplos do paradigma declarativo são linguagens de marcação e o SQL. Abaixo seguem exemplos de uma busca SQL e uma página simples HTML.
->>>>>>> 4dd56937ac4c0cc4a8989247f9f8da51311b1420
 
  ``SELECT * FROM user WHERE idade > 17 ``
 ```html
@@ -68,11 +62,9 @@ Na programação declarativa o foco é sobre o conteúdo e não em _como_ ele é
 </html>
 ```
 
-<<<<<<< HEAD
+
 No SQL selecionamos todos os usuários com 18 anos ou mais, note que não é necessário saber como a lógica da busca é implementada, como ocorrerá o processo, somente no que de fato declaramos e obteremos como retorno. De forma similar na nossa página HTML em nenhum momento pensamos no *como*, escrevemos o que deve ser tratado e passamos o tratamento para um terceiro, no HTML o Browser e no SQL o Sistema Gerenciador de Banco de Dados em questão (MySQL, MariaDB, etc.).
-=======
-No SQL selecionamos todos os usuários com 18 anos ou mais, note que não é necessário saber como a lógica da busca é implementada, como ocorrerá o processo, somente no que de fato declaramos e obteremos como retorno. De forma similar na nossa página HTML em nenhum momento pensamos no *como*, escrevemos o que deve ser tratado e passamos o tratamento para terceiro, no HTML o Browser e no SQL o Sistema Gerenciador de Banco de Dados em questão (MySQL, MariaDB, etc.).
->>>>>>> 4dd56937ac4c0cc4a8989247f9f8da51311b1420
+
 
 ## Lógico
 Já o Paradigma Lógico é baseado em **fatos** e **regras de inferência**, com seu principal representante a linguagem Prolog. Usado en projetos de inteligência artificial, uma  vantagem é que a facilidade de provar que o problema está correto porém para cálculos matemáticos tende a ser mais lento.
