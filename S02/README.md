@@ -77,15 +77,25 @@ animal(X):-dog(X).
 No programa acima declaramos fatos, em tradução livre temos que: "Fido é um cachorro" e que "Felix é um gato". Na terceira linhas temos que "X é um animal se X é um cachorro", com isso conseguimos garantir que Fido é um animal, porém com nosso programa atual não podemos afirmar o mesmo de Félix. Um exemplo de projeto usando prolog é um [jogo de Damas](http://www.linhadecodigo.com.br/artigo/860/desenvolvimento-e-implementacao-de-um-jogo-de-damas-em-prolog.aspx), desenvolvido por alunos do curso de Ciências da Computação da Faculdade Ruy Barbosa.
 ## Funcional
 
-Por fim falaremos sobre o paradigma funcional, um programa escrito com uma linguagem funcional é composto por funções, e também é declarativo, dentre as características usadas para classificar linguagens que usam o paradigma funcional as com maior destaque são as seguintes:
+Por fim falaremos sobre o paradigma funcional, um programa escrito com uma linguagem funcional é composto por funções, e também é declarativo. Dentre as características usadas para classificar linguagens que usam o paradigma funcional as com maior destaque são as seguintes:
 
 - Funções Puras: Funções puras são aquelas que ao receber a mesma entrada geram a mesma saída, sem alterar nada fora do seu escopo, dizemos que funções puras não geram **Efeitos Colaterais**. Em um programa em C é muito comum quando desejamos alterar mais de uma variável o uso de ponteiros passados como parâmetros, de fato funciona e é a maneira mais prática de fazer isto, porém suponha que entre milhares de linhas de código uma variável comum é alterada e não sabemos onde a mudança ocorreu, temos um problema. 
 
+- Lazy Evaluation: Em português Avaliação Preguiçosa consiste em executar determinada tarefa até onde ela é necessária, um exemplo é a geração de listas "infinitas" em haskell: ```[1..]``` consiste em uma lista iniciada em um, porém sem um final definido, crescendo até o fim do programa. A principal vantagem da Avalição Preguiçosa é o ganho de performance obtido, pois muitos passos da Avalição Rigorosa (modelo oposto) não fazem-se necessários.
+
+- Recursão: Comum a vários problemas do dia, a recusão é extremamente presente em linguagens funcionais. Consiste em quebrar o problema em um caso base (condição de parada) e em um problema levemente diferente do original. Abaixo segue um exemplo de função recursiva:
+```
+função fatorial(n)
+{
+  se (n <= 1)
+    retorne 1;
+  senão
+    retorne n * fatorial(n-1);
+}
+```
+neste pseudocódigo temos que quando nosso número for 1 retornaremos 1 e caso contrário n*fatorial(n-1), isso significa que para um n qualquer faremos subtrações até chegar em n = 1 e após isso os outros passos são resolvidos.
 
 
-- Lazy Evaluation
-
-- Recursão
 
 
 
