@@ -18,16 +18,16 @@
 | !! | [Link](OperaçõesBásicas/indice.hs "Solução") | Fácil | OK
 | elem|  [Link](OperaçõesBásicas/elem.hs "Solução") | Fácil | OK
 | length | [Link](OperaçõesBásicas/length.hs "Solução") |Fácil | OK 
-| maximum | [Link](OperaçõesBásicas/maximum.hs "Solução") | Fácil | Pendente
+| maximum | [Link](OperaçõesBásicas/maximum.hs "Solução") | Sofrido | Pendente
 | init | [Link](OperaçõesBásicas/init.hs "Solução") | Fácil | Ok
-| splitAt |   [Link](OperaçõesBásicas/splitAt.hs "Solução")| Fácil | OK
-| partition |  [Link](OperaçõesBásicas/partition.hs "Solução")| Fácil| OK 
+| splitAt |   [Link](OperaçõesBásicas/splitAt.hs "Solução")| Sofrido | Pendente
+| partition |  [Link](OperaçõesBásicas/partition.hs "Solução")| Sofrido | Pendente 
 | somaImpares | [Link](OperaçõesBásicas/somaImpares.hs "Solução") | Fácil | OK
 | max3 | [Link](OperaçõesBásicas/max3.hs "Solução") | Fácil | OK
 | fatorial|  [Link](OperaçõesBásicas/fatorial.hs "Solução") | Fácil | OK
 | uniao | [Link](OperaçõesBásicas/uniao.hs "Solução") |Fácil | OK
-| intersec - intercessão entre listas | [Link](OperaçõesBásicas/intersec.hs "Solução") | Fácil | Pendente 
+| intersec - intercessão entre listas | [Link](OperaçõesBásicas/intersec.hs "Solução") | Sofrido | Pendente 
 | sublist | [Link](OperaçõesBásicas/sublist.hs "Solução") | Fácil | OK
 | paridade |   [Link](OperaçõesBásicas/paridade.hs "Solução")| Fácil| OK
-| swap - trocando dois elementos de uma lista|  [Link](OperaçõesBásicas/swap.hs "Solução")| Fácil | Pendente
+| swap - trocando dois elementos de uma lista|  [Link](OperaçõesBásicas/swap.hs "Solução")| Sofrido | Pendente
 | euler1 - soma de múltiplos de 3 e 5 | [Link](OperaçõesBásicas/euler1.hs "Solução") | Fácil | OK
