@@ -1,0 +1,1 @@
+interior xs = tail . reverse . tail
