@@ -1,1 +1,4 @@
-maior xs = if length xs == 1 then head xs else maior $ tail xs
+maior [x] = x
+maior (x : xs) = if maiordoresto > x then maiordoresto else x
+  where
+    maiordoresto = maior xs
