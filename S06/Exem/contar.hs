@@ -1,0 +1,1 @@
+contar x xs = foldl (\i y -> if x == y then i + 1 else i) 0 xs

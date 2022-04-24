@@ -31,27 +31,3 @@
 | paridade |   [Link](OperaçõesBásicas/paridade.hs "Solução")| Fácil| OK
 | swap - trocando dois elementos de uma lista|  [Link](OperaçõesBásicas/swap.hs "Solução")| Fácil | Pendente
 | euler1 - soma de múltiplos de 3 e 5 | [Link](OperaçõesBásicas/euler1.hs "Solução") | Fácil | OK
-
-
- # Recursão
-
-| Exercício | Solução | Dificuldade | Status |
-| ------ | ------ | ----- | ---- |
-| Fibonacci | [Link](Recursão/fibonacci.hs "Solução") | Fácil | Pendente
-| Frequência|  [Link](Recursão/frequencia.hs "Solução") | Fácil | Pendente
-| Único | [Link](Recursão/unico.hs "Solução") |Fácil | Pendente 
-| maioresQue | [Link](Recursão/maioresQue.hs "Solução") | Fácil | Pendente
-| concatena | [Link](Recursão/concatena.hs "Solução") | Fácil | Pendente
-| after |   [Link](Recursão/after.hs "Solução")| Fácil | Pendente
-| reverso |  [Link](Recursão/reverso.hs "Solução")| Fácil| Pendente 
-| menores | [Link](Recursão/menores.hs "Solução") | Fácil | Pendente
-| remover o maior elemento | [Link](Recursão/remove.hs "Solução") | Fácil | Pendente
-| intercal - Intercalar duas listas|  [Link](Recursão/intercal.hs "Solução") | Fácil | Pendente
-| sequencia | [Link](Recursão/sequencia.hs "Solução") |Fácil | Pendente
-| rotEsq - intercessão entre listas | [Link](Recursão/rotEsq.hs "Solução") | Fácil | Pendente 
-| rotDir | [Link](Recursão/rotDir.hs "Solução") | Fácil | Pendente
-| quadperf |   [Link](Recursão/quadperf.hs "Solução")| Fácil| Pendente
-| deletee  - remover primeira ocorrência|  [Link](Recursão/deletee.hs "Solução")| Fácil | Pendente
-| listacc - Lista acumulativa | [Link](Recursão/listacc.hs "Solução") | Fácil | Pendente
-| line  - linhas de um triângulo|  [Link](Recursão/line.hs "Solução")| Fácil | Pendente
-| triangle - triângulo aritmético | [Link](Recursão/triangle.hs "Solução") | Fácil | Pendente

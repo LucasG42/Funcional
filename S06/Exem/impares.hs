@@ -1,0 +1,1 @@
+impares xs = foldl (\ys x -> if odd x then ys ++ [x] else ys) [] xs

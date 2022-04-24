@@ -1,0 +1,1 @@
+menorElemento xs = foldl min (head xs) xs

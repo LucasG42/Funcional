@@ -1,0 +1,1 @@
+existe x xs = foldl (\x y -> x == y || False) x xs
