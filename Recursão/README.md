@@ -3,12 +3,12 @@
 
 | Exercício | Solução | Dificuldade | Status |
 | ------ | ------ | ----- | ---- |
-| Fibonacci | [Link](Recursão/fibonacci.hs "Solução") |  ***** | Pendente
-| Frequência|  [Link](Recursão/frequencia.hs "Solução") | ***** | Pendente
-| Único | [Link](Recursão/unico.hs "Solução") |***** | Pendente 
+| Fibonacci | [Link](Recursão/fibonacci.hs "Solução") |  Fácil | OK
+| Frequência|  [Link](Recursão/frequencia.hs "Solução") | Fácil | OK
+| Único | [Link](Recursão/unico.hs "Solução") | Médio | OK
 | maioresQue | [Link](Recursão/maioresQue.hs "Solução") | ***** | Pendente
-| concatena | [Link](Recursão/concatena.hs "Solução") | ***** | Pendente
-| after |   [Link](Recursão/after.hs "Solução")| ***** | Pendente
+| concatena | [Link](Recursão/concatena.hs "Solução") | Difícil | Feito porém não funciona
+| alter |   [Link](Recursão/alter.hs "Solução")| Difícil | Feito porém não funciona
 | reverso |  [Link](Recursão/reverso.hs "Solução")| *****| Pendente 
 | menores | [Link](Recursão/menores.hs "Solução") | ***** | Pendente
 | remover o maior elemento | [Link](Recursão/remove.hs "Solução") | ***** | Pendente
