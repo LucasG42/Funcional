@@ -26,7 +26,7 @@
 | max3 | [Link](OperaçõesBásicas/max3.hs "Solução") | Fácil | OK
 | fatorial|  [Link](OperaçõesBásicas/fatorial.hs "Solução") | Fácil | OK
 | uniao | [Link](OperaçõesBásicas/uniao.hs "Solução") |Fácil | OK
-| intersec - intercessão entre listas | [Link](OperaçõesBásicas/intersec.hs "Solução") | Fácil | Pendente 
+| intersec - intercessão entre listas | [Link](OperaçõesBásicas/intersec.hs "Solução") | Fácil | OK 
 | sublist | [Link](OperaçõesBásicas/sublist.hs "Solução") | Fácil | OK
 | paridade |   [Link](OperaçõesBásicas/paridade.hs "Solução")| Fácil| OK
 | swap - trocando dois elementos de uma lista|  [Link](OperaçõesBásicas/swap.hs "Solução")| Fácil | Pendente
